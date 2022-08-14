@@ -1,8 +1,4 @@
-<div>
-  <h2>Trajet covoiturage</h2>
+<app-trajet [trajet]="trajet1"></app-trajet>
+<app-trajet [trajet]="trajet2"></app-trajet>
 
-  <p>Trajet 1 :<br> Id: {{ trajet1.id }} <br> Départ: {{ trajet1.departure }}<br> Arrivée : {{ trajet1.arrival }}<br> Le : {{trajet1.date}}</p>
-  <p>Trajet 2 :<br> Id: {{ trajet2.id }} <br>  Départ: {{ trajet2.departure }}<br> Arrivée : {{ trajet2.arrival }}<br> Le : {{trajet2.date}}</p>
-
-</div>
 <router-outlet></router-outlet>

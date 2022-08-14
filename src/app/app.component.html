@@ -1,6 +1,5 @@
-<div *ngFor="let trajet of trajets">
+<div *ngFor="let trajet of trajetService.trajets">
   <app-trajet [trajet]="trajet"></app-trajet>
 </div>
 
 <router-outlet></router-outlet>
-

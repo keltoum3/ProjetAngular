@@ -1,3 +1,8 @@
+29
+
+Projet générer avec "ng new" donc pas de fichiers spec.ts - pas besoin de test dans cet exercice.
+
+
 # ProjetAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.

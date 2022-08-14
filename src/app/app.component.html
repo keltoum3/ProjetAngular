@@ -1,4 +1,6 @@
-<app-trajet [trajet]="trajet1"></app-trajet>
-<app-trajet [trajet]="trajet2"></app-trajet>
+<div *ngFor="let trajet of trajets">
+  <app-trajet [trajet]="trajet"></app-trajet>
+</div>
 
 <router-outlet></router-outlet>
+

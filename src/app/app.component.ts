@@ -7,6 +7,14 @@ import { Trajet } from './models/Trajet';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  trajet1: Trajet = new Trajet("fa1f5f40-be3b-11eb-91ec-7f5875ecfb46", "Lyon", "Paris",  "1er Juin 2022");
-  trajet2: Trajet = new Trajet("fa1f5f40-be3b-11eb-91ec-7f5875ecfb47", "Nice", "Monaco",  "3 Septembre 2022");
+
+  trajets: Trajet[] = [
+    new Trajet("fa1f5f40-be3b-11eb-91ec-7f5875ecfb46", "Lyon", "Paris",  "1er Juin 2022"),
+    new Trajet("fa1f5f40-be3b-11eb-91ec-7f5875ecfb47", "Nice", "Monaco",  "3 Septembre 2022")];
+
+  constructor(){
+    setTimeout(() => {
+      this.trajets.push(new Trajet("fa1f5f40-be3b-11eb-91ec-7f5875ecfb48", "Lille", "Dijon",  "21 Janvier 2023"));
+    }, 3000);
+  }
 }

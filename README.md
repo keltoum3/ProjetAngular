@@ -1,5 +1,8 @@
 29
-La classe Trajet.ts dans le dossier model n'a pas été généré avec "ng generate" d'ou l'absence des fichier généré tel que ".spec.ts". Ce TD n'inclut pas de testscela n'est donc pas utile de les ajouter.
+La classe Trajet.ts dans le dossier model n'a pas été généré avec "ng generate" d'ou l'absence des fichier généré tel que ".spec.ts". Ce TD n'inclut pas de tests cela n'est donc pas utile de les ajouter.
+J'ai aussi pris la liberté de changer (un mini peu) le rendu visuel, mais je pense que ce n'est pas ce qui était noté de toute façon, en espérant que ça ne me pénalise pas.
+
+
 # ProjetAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
